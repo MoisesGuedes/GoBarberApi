@@ -145,15 +145,15 @@ https://www.mediafire.com/file/8b5buibx7i80z0f/Collection/file
   docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
 ```
 7. Create the instance of redis using docker
-``sh
+```sh
   docker run --name gobarber-redis -p 6379:6379 -d -t redis:alpine
-``
+```
 8. Once the services are running, run the migrations
-``sh
+```sh
   yarn typeorm migration:run
-``
+```
 9. Now you can the api service
-``sh
+```sh
   yarn dev:server
-``
+```
 <p align="right">(<a href="#top">back to top</a>)</p>
