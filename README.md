@@ -54,12 +54,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -123,8 +117,8 @@ https://www.mediafire.com/file/8b5buibx7i80z0f/Collection/file
    ```sh
    yarn
    ```
-3. Make a copy of '.env.example' to '.env.
-4. Set with YOUR environment variables.
+3. Make a copy of '.env.example' to '.env
+4. Set with YOUR environment variables
 5. Create the instance of postgreSQL using docker
 ```sh
   docker run --name gobarber-postgres -e POSTGRES_USER=docker \
