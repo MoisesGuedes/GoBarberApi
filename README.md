@@ -106,7 +106,6 @@ https://www.mediafire.com/file/8b5buibx7i80z0f/Collection/file
 * [Node.js](https://nodejs.org/en/)
 * [Yarn](https://nodejs.org/en/) or [Npm](https://nodejs.org/en/)
 * One instance of [PostgreSQL](https://www.postgresql.org/). Using docker.
-* 
 ### Installation
 
 1. Clone the repo
