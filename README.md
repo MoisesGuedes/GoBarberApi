@@ -120,25 +120,25 @@ https://www.mediafire.com/file/8b5buibx7i80z0f/Collection/file
 3. Make a copy of '.env.example' to '.env
 4. Set with YOUR environment variables
 5. Create the instance of postgreSQL using docker
-```sh
-  docker run --name gobarber-postgres -e POSTGRES_USER=docker \
-              -e POSTGRES_DB=gobarber -e POSTGRES_PASSWORD=docker \
-              -p 5432:5432 -d postgres
-```
+    ```sh
+      docker run --name gobarber-postgres -e POSTGRES_USER=docker \
+                  -e POSTGRES_DB=gobarber -e POSTGRES_PASSWORD=docker \
+                  -p 5432:5432 -d postgres
+    ```
 6. Create the instance of mongoDB using docker
-```sh
-  docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
-```
+    ```sh
+      docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
+    ```
 7. Create the instance of redis using docker
-```sh
-  docker run --name gobarber-redis -p 6379:6379 -d -t redis:alpine
-```
+    ```sh
+      docker run --name gobarber-redis -p 6379:6379 -d -t redis:alpine
+    ```
 8. Once the services are running, run the migrations
-```sh
-  yarn typeorm migration:run
-```
+    ```sh
+      yarn typeorm migration:run
+    ```
 9. Now you can the api service
-```sh
-  yarn dev:server
-```
+    ```sh
+      yarn dev:server
+    ```
 <p align="right">(<a href="#top">back to top</a>)</p>
